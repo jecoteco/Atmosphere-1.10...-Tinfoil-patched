@@ -1,5 +1,16 @@
-These are patched versions of package3 that support Tinfoil app on Firmwares 21+. Replace the package3 in sdmc://atmosphere/ folder with the respective compile for your version. Enjoy!
+HATS spin off
+Homebrew App Tools & Store
 
-New AIO compatible for installation.
-This should be obvious but since the patches are within package3, using fusee will bypass this and render useless. When setting up hekate_ipl.ini use fss0=atmosphere/package3.
-Do not use Payload=bootloader/payloads/fusee.bin.
+Welcome to my (un)official HATS distribution repository.
+
+Overview
+HATS (Homebrew App Tools & Store) is a curated collection designed to enhance your homebrew experience. This repository serves as the primary distribution channel for stable releases.
+
+Getting Started
+To get started with HATS, simply download the latest release from the Releases section.
+
+These are patched versions of Hats that support Tinfoil app on Firmwares 21+.
+
+Most people where not capable of setting up properly, so here's a full pack using Hats as base. I am not affiliated with or taking any credit from hats.
+The Only modification was to apply patches for tinfoil support.
+
