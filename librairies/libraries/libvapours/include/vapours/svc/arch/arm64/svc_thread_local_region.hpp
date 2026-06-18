@@ -1,4 +1,4 @@
-
+/*
  * Copyright (c) Atmosphère-NX
  *
  * This program is free software; you can redistribute it and/or modify it
@@ -25,13 +25,24 @@ namespace ams::svc::arch::arm64 {
         u32 message_buffer[MessageBufferSize / sizeof(u32)];
         volatile u16 disable_count;
         volatile u16 interrupt_flag;
-        volatile u8 cache_maintenance_flag;
-        /* TODO: How should we handle libnx vs Nintendo user thread local space? */
-        uintptr_t TODO[(0x200 - 0x108) / sizeof(uintptr_t)];
+        volatile u8  cache_maintenance_flag;
+        u8           reserved[3];
+        u64          thread_cpu_time;
+        u32          current_thread_handle;
+        u8           reserved2[0x6C];
+        u8           tls[0x50];
+        uintptr_t    locale_ptr;
+        uintptr_t    errno_val;
+        uintptr_t    thread_data;
+        uintptr_t    eh_globals;
+        uintptr_t    thread_pointer;
+        uintptr_t    thread_type;
     };
+
     static_assert(__builtin_offsetof(ThreadLocalRegion, disable_count)          == 0x100);
     static_assert(__builtin_offsetof(ThreadLocalRegion, interrupt_flag)         == 0x102);
     static_assert(__builtin_offsetof(ThreadLocalRegion, cache_maintenance_flag) == 0x104);
+    static_assert(__builtin_offsetof(ThreadLocalRegion, current_thread_handle)  == 0x110);
 
     ALWAYS_INLINE ThreadLocalRegion *GetThreadLocalRegion() {
         ThreadLocalRegion *tlr;
