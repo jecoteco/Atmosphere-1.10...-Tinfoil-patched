@@ -38,7 +38,7 @@ It is based on the excellent [HATS](https://github.com/sthetix/HATS) project (Ho
 
 **Stars are appreciated!** 🚀
 
-<a href="paypal.me/jecoteco" target="_blank">
+<a href="[paypal.me/jecoteco](https://paypal.me/jecoteco)" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
 
