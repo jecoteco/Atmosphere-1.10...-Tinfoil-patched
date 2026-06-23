@@ -26,7 +26,7 @@ namespace ams::svc::arch::arm {
         volatile u16 disable_count;
         volatile u16 interrupt_flag;
         /* TODO: Should we bother adding the Nintendo aarch32 thread local context here? */
-        uintptr_t TODO[(0x200 - 0x104) / sizeof(uintptr_t)];
+        uintptr_t TODO[(0x200 - 0x104) / sizeof(uintptr_t)];svc/
     };
 
     ALWAYS_INLINE ThreadLocalRegion *GetThreadLocalRegion() {
