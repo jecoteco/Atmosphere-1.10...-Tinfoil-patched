@@ -1,5 +1,8 @@
 # Atmosphere Tinfoil-Patched Builds
 
+![Latest Release](https://img.shields.io/github/v/release/jecoteco/Atmosphere-Tinfoil-Patched)
+![Total Downloads](https://img.shields.io/github/downloads/jecoteco/Atmosphere-Tinfoil-Patched/total)
+
 **Pre-patched Atmosphere releases with full Tinfoil support for Firmware 21.0.0 and newer.**
 
 ## Overview
