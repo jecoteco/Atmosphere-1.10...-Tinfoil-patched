@@ -44,7 +44,7 @@ I have a **real opportunity** to hire a proven developer to build this next-gene
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
 
-**Thank you to everyone who supports the JF Mods ecosystem!** ❤️
+**Thank you to everyone who supports the movement!** ❤️
 
 ## Important Notes
 - These builds are provided **as-is**. Always make a **NAND backup** before updating.
