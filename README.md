@@ -37,7 +37,6 @@ I have a **real opportunity** to hire a proven developer to build this next-gene
 
 ### Funding Goal: **$1,500 USD**
 - This will cover the initial development phase of a polished, community-first Tinfoil successor.
-- All funds go directly toward development (transparent updates will be shared here and on [jfmodzone.com](https://jfmodzone.com)).
 
 **Every donation counts** — even small contributions help reach the goal faster.
 
