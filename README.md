@@ -1,7 +1,7 @@
 # Atmosphere Tinfoil-Patched Builds
 
 ![Latest Release](https://img.shields.io/github/v/release/jecoteco/Atmosphere-Tinfoil-Patched)
-![Total Downloads](https://img.shields.io/github/downloads/jecoteco/Atmosphere-Tinfoil-Patched/total)
+![Total Downloads]()
 ![Latest Downloads](https://img.shields.io/github/downloads/jecoteco/Atmosphere-Tinfoil-Patched/latest/total)
 
 **Pre-patched Atmosphere releases with full Tinfoil support for Firmware 21.0.0 and newer.**
@@ -27,24 +27,15 @@ It is based on the excellent [HATS](https://github.com/sthetix/HATS) project (Ho
 ## Known Issues
 - Icon downloads may be broken since Firmware 21.0.0 (a common issue with Tinfoil on newer firmwares)
 
-## 🚀 Future Plans: Modern Tinfoil Successor
+## Support My Work
 
-The Switch homebrew scene deserves a **modern, actively maintained Tinfoil alternative** — with better performance, cleaner UI, improved USB/NAND support, faster downloads, and long-term compatibility with future firmwares.
-
-I have a **real opportunity** to hire a proven developer to build this next-generation app from the ground up. However, like any professional service, quality development requires dedicated time and cannot be done for free.
-
-**If this project excites you and you want to help make it happen**, your support would be incredibly valuable.
-
-### Funding Goal: **$1,500 USD**
-- This will cover the initial development phase of a polished, community-first Tinfoil successor.
-
-**Every donation counts** — even small contributions help reach the goal faster.
+If you find these builds useful, consider buying me a coffee:
 
 <a href="https://paypal.me/jecoteco" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
 
-**Thank you to everyone who supports the movement!** ❤️
+Thank you for the support! ❤️
 
 ## Important Notes
 - These builds are provided **as-is**. Always make a **NAND backup** before updating.
